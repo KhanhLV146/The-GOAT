@@ -41,17 +41,38 @@ html{
 }
 #gioi-thieu  {
     margin-top: 46px;   
-    padding-top: 46%;
-
-
+    padding-top: 29%;
 
 }
 #gioi-thieu h2 {
     color: white;
+    font-size: 26px;
     text-align: center;
     padding-bottom: 12px;
+    font-style: italic;
 }
 #gioi-thieu h3{
     text-align: center;
     padding-bottom: 12px;
+    font-weight: 150;
+}
+#gioi-thieu2 {
+    width: 800px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#gioi-thieu2 .gt2-heading{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+    font-style: italic;
+
+}
+#gioi-thieu2 .gt2-content{
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 1.6;
 }
