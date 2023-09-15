@@ -5,16 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./main.js">
 </head>
 <body>
 <div id="main">
         <div id="header">
         <ul id="nav">
-            <li ><a href="#"> Tiểu sử</a></li>
-            <li><a href="#">sự nghiệp</a></li>
-            <li><a href="#">danh hiệu</a></li>
-            <li><a href="#">cuộc sống ngoài sân cỏ</a></li>
+            <li ><a href="#tieu-su"> Tiểu sử</a></li>
+            <li><a href="#su-nghiep">sự nghiệp</a></li>
+            <li><a href="#danh-hieu">danh hiệu</a></li>
+            <li><a href="#Cuoc-song">cuộc sống ngoài sân cỏ</a></li>
         </ul>
     </div>
 <div id="gioi-thieu">
@@ -197,7 +196,49 @@
             <a href="https://twitter.com/LionelMessi" target="_blank">Twitter</a>
             <a href="https://www.facebook.com/LionelMessi" target="_blank">Facebook</a>
         </div>
+        <button id="openPopup">Send a Letter</button>
+        <script src="./main.js"></script>
     </div>
 </footer>
+
+<!-- ... (các phần khác của body) ... -->
+
+<style>
+    /* ... (các phần CSS khác) ... */
+    
+    footer {
+        background: #333;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .footer-links {
+        margin-top: 10px;
+    }
+
+    .footer-links a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+
+    #openPopup {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #openPopup:hover {
+        background-color: #0056b3;
+    }
+</style>
 
 </html>
